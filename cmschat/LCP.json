@@ -34,5 +34,10 @@
       "timeoutSeconds": 4,
       "failureThreshold": 3,
       "successThreshold": 1
+    },
+    "environments": {
+      "infra": {
+        "deploy": false
+      }
     }
 }

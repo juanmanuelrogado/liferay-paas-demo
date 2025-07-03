@@ -5,7 +5,7 @@ security:
     resourceserver:
       jwk:
         #jwk-set-uri: http://localhost:8080/o/oauth2/jwks
-        jwk-set-uri: https://webserver-lctXYZ-prd.lfr.cloud/o/oauth2/jwks
+        jwk-set-uri: https://webserver-lctgovernmentpsql-prd.lfr.cloud/o/oauth2/jwks
 management:
   endpoints:
     jmx:
@@ -16,7 +16,7 @@ liferay:
     api:
       base:
         #url: http://localhost:8080/o
-        url: https://webserver-lctXYZ-prd.lfr.cloud/o
+        url: https://webserver-lctgovernmentpsql-prd.lfr.cloud/o
     my-user-account: /my-user-account
 logging:
   level:

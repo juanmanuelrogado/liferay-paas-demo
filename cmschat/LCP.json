@@ -35,6 +35,9 @@
       "failureThreshold": 3,
       "successThreshold": 1
     },
+    "env": {
+      "LCP_CMSCHAT_OPENAI_KEY": "@lcp-secret-cmschat-openai-key"
+    },
     "environments": {
       "infra": {
         "deploy": false

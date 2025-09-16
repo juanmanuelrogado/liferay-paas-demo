@@ -54,7 +54,14 @@ public class LiferayHttpRequestFactoryImpl implements LiferayHttpRequestFactory 
 	public HttpRequest newLiferayPostRequest(String apiPath, String authToken, Map<String, String> urlParameters)
 		throws IOException {
 
-		HttpRequest.BodyPublisher bodyPublisher = HttpRequest.BodyPublishers.ofString("{}");
+		String searchContextString = "{" +
+			"  \"attributes\": {" +
+			"    \"search.experiences.blueprint.external.reference.code\": \"CMSCHAT-BLUEPRINT\"" +
+			"  }" +
+			"}";
+
+		//HttpRequest.BodyPublisher bodyPublisher = HttpRequest.BodyPublishers.ofString("{}");
+		HttpRequest.BodyPublisher bodyPublisher = HttpRequest.BodyPublishers.ofString(searchContextString);
 
 		try {
 			ParamBuilder paramBuilder = ParamBuilder.newBuilder();

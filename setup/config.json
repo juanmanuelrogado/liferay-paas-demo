@@ -1,0 +1,25 @@
+{
+	"admin": {
+		"userId" : "20126",
+		"givenName" : "Bruno",
+		"familyName" : "Tavares",
+		"alternateName" : "bruno.tavares",
+		"emailDefault": "test@liferay.com",
+		"email": "bruno.tavares@foo.xyz",
+		"profileImagePath": "personas/persona-290x290.png",
+		"password": "AdminPassword",
+		"passwordDefault": "test1"
+	},
+	"userPassword": "UserPassword",
+	"personasFolderId": "33282",
+	"imagesScopeKey" : "Images",
+	"assetLibraryPersonasFolderId": "35721",
+	"spacePersonasFolderId": "35759",
+	"scheme": "https",
+	"port": "443",
+	"project": "lctfoo",
+	"environment": "prd",
+	"hostname": "webserver-lctfoo-prd.lfr.cloud",
+	"globalSiteId": 20123,
+	"globalSiteERC": "L_GLOBAL"
+}
